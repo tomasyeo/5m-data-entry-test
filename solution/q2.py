@@ -8,7 +8,7 @@ Task 1
 if not isinstance(lst, list):
   raise ValueError("The first argument lst must be a list.")
     
-# Replace all occurrences of find_val with replace_val
+# Replace occurrences of find_val with replace_val
 return [replace_val if x == find_val else x for x in lst]
 
 # Task 2
